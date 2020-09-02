@@ -52,19 +52,6 @@ def sum_array(num)
 end
 
 def add_s(text)
-  plurals = [ ]
-  i = 0
-  if i = 0
-    text[i] << "s"
-    i +=1
-    puts text
-  elsif i = 1
-    text[i] = text[1]
-    i += 1
-  elsif i > 1 && i <= text.length
-      text[i] << "s"
-    i +=1
-    puts text
-  end
-  #text
+  text[i] << 's'
+  puts text
 end
