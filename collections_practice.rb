@@ -53,6 +53,6 @@ end
 
 def add_s(text)
   text.each {|x| x << 's'}
-  puts text[1].chomp
+  puts text[1].chomp("s")
   puts text
 end
