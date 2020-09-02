@@ -52,6 +52,6 @@ def sum_array(num)
 end
 
 def add_s(text)
-  text[i] << 's'
+  text.each {|x| x << 's'}
   puts text
 end
