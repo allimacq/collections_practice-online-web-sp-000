@@ -52,7 +52,9 @@ def sum_array(num)
 end
 
 def add_s(text)
+  #adding s to each word
   text.each {|x| x << 's'}
+  #removing the s from the second word using chomp
   text[1] = text[1].chomp("s")
   text
 end
